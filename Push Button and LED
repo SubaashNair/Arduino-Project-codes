@@ -1,0 +1,50 @@
+The requirements for this program are the same as before but with just one new inclusion in it.
+
+    1) Arduino Uno or Arduino Mega 2560 (They are the beginning boards of Arduino)
+    2) Jumper Wires (Male to Male)
+    3) Led
+    4) Push Button
+    5) Breadboard
+    6) 10 K (more preferable) or 1k resistor
+    7) Cable (To connect board with your Computer for uploading the Program)
+    8) Arduino Program
+    
+    UPDATED 10/9/2019 - LED to Arduino pin 3 and button to Arduino pin 4*/
+
+
+    //Example code//
+ //constants   
+const int buttonPin = 8;
+const int ledPin = 9;
+int buttonState = 0;
+int flag=0;
+
+void setup() {
+//input or output
+pinMode(ledPin, OUTPUT);
+pinMode(buttonPin, INPUT_PULLUP); }  //INPUT_PULLUP with pinMode().monitors the state of a switch by establishing serial communication between your Arduino and your computer.
+
+
+void loop()
+// read button state (pressed or not pressed?)
+{ buttonState = digitalRead(buttonPin); //Arduino is commanded to find out if the input is being recieved from the button (buttonPin) by pushing (as we defined it as Input Pull Up).
+//if button is pressed
+if (buttonState == LOW)
+//ones, turn on led!
+{ if ( flag == 0)
+
+{ digitalWrite(ledPin, HIGH);
+
+flag=1; //change flag variable
+
+} // twice..turn off led!
+
+else if ( flag == 1){
+
+digitalWrite(ledPin, LOW);
+
+flag=0; } } //change flag variable again
+
+delay(200); } //small delay
+
+
