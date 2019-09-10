@@ -1,7 +1,7 @@
 # Arduino-Project-codes
 Arduino Project codes for Arduino Club
 
-**Project 2: LED_push_button
+**Project 2: LED_push_button**
 
    **REQUIREMENTS**
     1. Arduino Uno or Arduino Mega 2560 (They are the beginning boards of Arduino)
