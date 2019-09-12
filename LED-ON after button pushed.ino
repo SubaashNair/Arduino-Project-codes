@@ -8,7 +8,7 @@ int LED_state=0;
 
 void setup(){
 pinMode(LED,OUTPUT);
-pinMode(Button,IMPUT):
+pinMode(Button,INPUT):
 }
 
 void loop(){
