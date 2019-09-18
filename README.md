@@ -19,7 +19,7 @@ Arduino Project codes for Arduino Club
       1. LED will stay on after button is pushed and off after pushed again.
       2. Value are stored using value variable.
       2. Using if and else statement.
-      3. Better deboucing.
+      3. Better debouncing.
    
    **Schematic**
    
