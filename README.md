@@ -21,4 +21,4 @@ Arduino Project codes for Arduino Club
     
  **Schematic**
  
- ![LED Blink](https://proxy.duckduckgo.com/iu/?u=https%3A%2F%2Fcircuitdigest.com%2Fsites%2Fdefault%2Ffiles%2Fcircuitdiagram_mic%2FArduino-LED-Circuit.gif&f=1&nofb=1)
+![LED fade out and in PWM](https://user-images.githubusercontent.com/26023333/65963583-aae27400-e48d-11e9-888b-0a982c8ec4f1.png)
