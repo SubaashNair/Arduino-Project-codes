@@ -4,7 +4,7 @@ Arduino Project codes for Arduino Club
 **Project 3: LED fade out and in using PWM**
 
 **Requirements**
-  
+
   1) Breadboard
   2) Jumper wires
   3) 220ohm resistor (red,red,brown,black,gold)
@@ -12,8 +12,8 @@ Arduino Project codes for Arduino Club
   5) LED (any color)
   
 **Lesson Objective**
-
   Students will be using readily available code in arduino sketch. Students will be learning about:
+  
     1. analogWrite value
     2. pinMode(pin,INPUT or OUTPUT)
     3. const int (constant integer)
