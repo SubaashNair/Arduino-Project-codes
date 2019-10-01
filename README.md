@@ -1,7 +1,7 @@
 # Arduino-Project-codes
 Arduino Project codes for Arduino Club
 
-**Project 1: LED Blink**
+**Project 3: LED fade out and in using PWM**
 
 **Requirements**
   
@@ -14,9 +14,10 @@ Arduino Project codes for Arduino Club
 **Lesson Objective**
 
   Students will be using readily available code in arduino sketch. Students will be learning about:
-    1. digitalWrite(digital_pin,HIGH or LOW) can also be replace by binary value (1 for on 0 for off)
+    1. analogWrite value
     2. pinMode(pin,INPUT or OUTPUT)
     3. const int (constant integer)
+    4. Analog value of 0 and 255 using PWM.
     
  **Schematic**
  
