@@ -11,9 +11,10 @@ analogWrite(LED, i); // set the LED brightness
 delay(10); // Wait 10ms because analogWrite // is instantaneous and we would not see any change
 }
 for (i = 255; i > 0; i--) { // loop from 255 to 1 (fade out)
-}
+
 analogWrite(LED, i); // set the LED brightness
 delay(10);
 // Wait 10ms
+}
 }
 ```
