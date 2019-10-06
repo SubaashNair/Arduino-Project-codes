@@ -2,7 +2,7 @@
 Arduino Project codes for Arduino Club
 
 
-**Project 4: LED brightness change via button **
+**Project 4: LED brightness change via button**
 
    **REQUIREMENTS**
    
